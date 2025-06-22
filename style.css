@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+    color: #063970;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 25px;
+  width: 80%;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+#loginEmail, #loginPassword, #signupEmail, #signupPassword, #signupUsername {
+    color: black;
+    background-color: #f1f3f6;
+}
+#loginEmail::placeholder,
+#loginPassword::placeholder,
+#signupEmail::placeholder,
+#signupPassword::placeholder,
+#signupUsername::placeholder {
+    color: rgba(14, 12, 12, 0.8);
+}
+
+
+input {
+  width: 75%;
+  padding: 10px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 2%;
+  width: 80%;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+}
+.success {
+    display: flex;
+    justify-content: start;
+    padding-left: 12%;
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* spacing between form and Google login */
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.inner-container form{
+    width: 100%;
+}
+.google {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  /* gap: 8px; */
+  color: #333;
+  }
+.google img {
+    display: inline-flex;
+  width: 20px;  
+}
+.Link {
+  color: #063970;
+  text-decoration: none;
+  font-weight: bold;
+}
+#forgotLink {
+    font-size: small;
+    display: flex;
+    padding-right: 12%;
+    justify-content: end; 
+    color: #063970;
+    text-decoration: none;
+}
+
+
+
+.LoginForm,
+.google{
+  flex: 1;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error {
+    padding-left: 12%;
+}
+.checkbox {
+  margin-top: 0px;
+  width: 25%;
+  display: flex;
+  border: 1px solid #ccc;
+  /* padding-left: 0%; */
+  padding-bottom: 1%;
+  margin-right: 50%;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.checkbox img {
+    width: 8%;
+    height: 8%;
+    margin-left: 10px;
+    padding-top: 5%;
+}
+#captcha{
+    align-items: center;
+    justify-content: start;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    /* padding-bottom: 10%; */
+    width: 5%;
+    display: inline-flex;
+    
+}
+.terms{
+    display: flex;
+    justify-content: start;
+    padding-left: 10%;
+    margin: 2%;
+}
+.divider {
+    padding-left: 75px;
+    /* padding-right: 25px; */
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+  margin: 20px 0;
+  font-size: 24px;
+}
