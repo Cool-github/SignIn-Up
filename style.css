@@ -1,3 +1,25 @@
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.left-bg {
+  flex: 1;
+  background: linear-gradient(to bottom right, #e5e9f0, #3a86ff);
+}
+
+.container.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #c2e9fb, #a1c4fd);
@@ -12,7 +34,7 @@ body {
     color: #063970;
   background: white;
   padding: 30px 40px;
-  border-radius: 25px;
+  
   width: 80%;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   text-align: center;
@@ -160,4 +182,8 @@ button {
     justify-content: center;
   margin: 20px 0;
   font-size: 24px;
+}
+
+.container right{
+  margin-left: 10%;
 }
